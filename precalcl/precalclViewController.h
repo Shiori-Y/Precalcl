@@ -8,6 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface precalclViewController : UIViewController
+@interface precalclViewController : UIViewController{
+    IBOutlet UILabel *label;
+    BOOL startInput;
+    int currentValue;
+    int operation;
+}
+- (IBAction)number:(id)sender;
+
+//- (IBAction)point:(id)sender;
+
+- (IBAction)op:(id)sender;
+
+//- (IBAction)signchange:(id)sender;
+
+- (IBAction)allclear:(id)sender;
+
+- (IBAction)equal:(id)sender;
+
 
 @end
