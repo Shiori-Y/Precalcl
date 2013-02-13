@@ -7,7 +7,8 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "precalclStateMachine.h"
 
 @interface precalclTests : SenTestCase
-
+@property precalclStateMachine* statemachine;
 @end

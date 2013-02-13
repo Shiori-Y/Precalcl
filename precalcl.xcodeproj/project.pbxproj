@@ -23,6 +23,7 @@
 		2C1E57EE163664BE004163A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C1E57C9163664BE004163A2 /* Foundation.framework */; };
 		2C1E57F6163664BF004163A2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2C1E57F4163664BF004163A2 /* InfoPlist.strings */; };
 		2C1E57F9163664BF004163A2 /* precalclTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C1E57F8163664BF004163A2 /* precalclTests.m */; };
+		2CEF3A9216CB253C008E335D /* precalclStateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CEF3A9116CB253C008E335D /* precalclStateMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		2C1E57F5163664BF004163A2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2C1E57F7163664BF004163A2 /* precalclTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = precalclTests.h; sourceTree = "<group>"; };
 		2C1E57F8163664BF004163A2 /* precalclTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = precalclTests.m; sourceTree = "<group>"; };
+		2CEF3A9016CB253C008E335D /* precalclStateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = precalclStateMachine.h; sourceTree = "<group>"; };
+		2CEF3A9116CB253C008E335D /* precalclStateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = precalclStateMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +125,8 @@
 				2C1E57DF163664BE004163A2 /* MainStoryboard.storyboard */,
 				2C1E57E2163664BE004163A2 /* precalclViewController.h */,
 				2C1E57E3163664BE004163A2 /* precalclViewController.m */,
+				2CEF3A9016CB253C008E335D /* precalclStateMachine.h */,
+				2CEF3A9116CB253C008E335D /* precalclStateMachine.m */,
 				2C1E57CE163664BE004163A2 /* Supporting Files */,
 			);
 			path = precalcl;
@@ -274,6 +279,7 @@
 				2C1E57D4163664BE004163A2 /* main.m in Sources */,
 				2C1E57D8163664BE004163A2 /* precalclAppDelegate.m in Sources */,
 				2C1E57E4163664BE004163A2 /* precalclViewController.m in Sources */,
+				2CEF3A9216CB253C008E335D /* precalclStateMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +453,7 @@
 				2C1E57FE163664BF004163A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2C1E57FF163664BF004163A2 /* Build configuration list for PBXNativeTarget "precalclTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				2C1E5801163664BF004163A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
